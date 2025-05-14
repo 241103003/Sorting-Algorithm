@@ -1,8 +1,8 @@
 
-````markdown
-# 📘 Topic: Sorting Algorithms
 
-## 🧠 Overview
+ 📘 Topic: Sorting Algorithms
+
+ 🧠 Overview
 
 Sorting algorithms are used to arrange elements in a specific order—typically ascending or descending. Efficient sorting is crucial in optimizing other algorithms, such as search and merge operations.
 
@@ -15,34 +15,34 @@ Each sorting algorithm has its own performance characteristics and ideal use cas
 
 ---
 
-## 🔢 Basic Concepts
+ 🔢 Basic Concepts
 
-### What is Sorting?
+What is Sorting?
 
 Sorting is the process of ordering elements of a list/array based on a comparison operator (e.g., `<`, `>`). It helps improve data organization and speeds up searching.
 
-### Sorting Properties:
+ Sorting Properties:
 
 | Property   | Meaning                                   |
 |------------|-------------------------------------------|
 | Stability  | Equal elements retain their original order |
 | In-place   | Uses constant extra memory (O(1))          |
 
-### Time Complexity
+ Time Complexity
 
 Performance in Best, Average, and Worst cases.
 
 ---
 
-## 🧮 Step-by-Step: Bubble Sort
+ 🧮 Step-by-Step: Bubble Sort
 
 Bubble Sort is a simple, intuitive algorithm that repeatedly swaps adjacent elements if they are in the wrong order.
 
-### Step 1: Understand the logic
+ Step 1: Understand the logic
 
 Compare adjacent pairs and "bubble" the largest element to the end.
 
-### Step 2: Code it
+ Step 2: Code it
 
 ```python
 def bubble_sort(arr):
